@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>LEENAGYEONG PORTFOLIO</title>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/cbe0a4bd5c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- CSS -->
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script src="js/fullpage.js"></script>
+  <script src="js/webAuto.js"></script>
+  <script src="js/mobileSlide.js"></script>
+  <script src="js/homeAbout.js"></script>
+  <script src="js/particles.js"></script>
+
+</head>
+
+<body>
+  <!-- right icon menu -->
+  <ul id="menu">
+    <li data-menuanchor="anchor1">
+      <a href="#anchor1"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+      <p>HOME</p>
+    </li>
+    <li data-menuanchor="anchor2">
+      <a href="#anchor2"><i class="fa-solid fa-book-open" style="color: #ffffff;"></i></a>
+      <p>#01</p>
+    </li>
+    <li data-menuanchor="anchor3">
+      <a href="#anchor3"><i class="fa-solid fa-building-columns" style="color: #ffffff;"></i></a>
+      <p>#02</p>
+    </li>
+    <li data-menuanchor="anchor4">
+      <a href="#anchor4"><i class="fa-solid fa-shirt" style="color: #ffffff;"></i></a>
+      <p>#03</p>
+    </li>
+    <li data-menuanchor="anchor5">
+      <a href="#anchor5"><i class="fa-solid fa-gift" style="color: #ffffff;"></i></a>
+      <p>#04</p>
+    </li>
+    <li data-menuanchor="anchor6">
+      <a href="#anchor6"><i class="fa-solid fa-address-card"></i></a>
+      <p>ABOUT</p>
+    </li>
+  </ul>
+
+
+  <div id="homeleft_grid">
+    <div id="about">
+      <ul class="about_icon">
+        <li><a href="#"><i class="far fa-address-card"></i></a>
+          <ul class="burble">
+            <li>이나경 / LEE NA GYEONG</li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fas fa-mobile-alt"></i></a>
+          <ul class="burble">
+            <li>010-9034-6746</li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="far fa-envelope"></i></a>
+          <ul class="burble">
+            <li>2nastella@gmail.com</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="fullpage">
+    <!--section 1 : home-->
+    <div class="section section-01">
+
+      <!-- particles.js container -->
+      <div class="stars"></div>
+      <div class="textbox">
+        <p class="smallTitle">PORTFOLIO </p>
+        <h3 class="neon_h3">WEB DEVELOPER</h3>
+        <p class="smallTitle"><em class="smallText">Hello World! | HTML | CSS | JAVASCRIPT | JQUERY | JSON | OPEN API |
+            AJAX | RESPONSIVE WEB SITE | REACT | TYPESCRIPT</em></p>
+      </div>
+      <a href="#anchor2"><div class="scroll"><i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></div></a>
+    </div>
+
+    <!-- project 01 -->
+    <div class="section project_01">
+      <div class="bodywrap">
+        <div class="introduce">
+
+          <div class="introduceBox">
+            <ul class="color">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <h1>PROJECT <em>01</em></h1>
+            <h2>ALADIN</h2>
+            <h4>Open API/Json</h4>
+            <div class="subtxt">
+              <p class="subtxt_title">국내 웹 도서 사이트 '알라딘'</p>
+              <p>KaKao Open API로 도서 데이터를 구성하였습니다.<br>
+                jQuery로 네비게이션과 슬라이드를 접목한 상품 리스트 등의 <br>다양한 인터렉션 요소를 배치하였고,
+                도서를 구매할 수 있는<br> 서브 페이지도 함께 제작하였습니다.</p>
+            </div>
+            <div class="btn_box">
+              <a href="https://2nastella.github.io/aladin_st/index.html" target="_blank" class="btn_main">MAIN PAGE</a>
+              <a href="https://2nastella.github.io/aladin_st/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+        <div class="webpage">
+          <div class="bodyimg">
+            <ul id="aladin">
+              <li><img src="img/full_img_03_w.png" alt="web1"></li>
+            </ul>
+          </div>
+
+          <div class="bhoverbox" id="aladin_box"
+            onclick="window.open('https://2nastella.github.io/aladin_st/index.html')">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- project 02 -->
+    <div class="section project_02">
+      <div class="bodywrap">
+        <div class="introduce">
+
+          <div class="introduceBox">
+            <ul class="color">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <h1>PROJECT <em>02</em></h1>
+            <h2>The Metropolitan Museum of Art</h2>
+            <h4>Responsive Website</h4>
+
+            <div class="btn_box">
+              <a href="https://2nastella.github.io/2nastella-met_20230327/index.html" target="_blank"
+                class="btn_main">MAIN
+                PAGE</a>
+              <a href="https://2nastella.github.io/2nastella-met_20230327/sub.html" target="_blank" class="btn_sub">SUB
+                PAGE</a>
+            </div>
+            <div class="subtxt">
+              <p class="subtxt_title">메트로폴리탄 미술관</p>
+              <p>반응형 웹사이트로 제작하였습니다.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="mobile">
+          <div class="mobile_box" onclick="window.open('https://2nastella.github.io/2nastella-met_20230327/')">
+            <ul>
+              <li><img src="img/full_img_02_m1.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m2.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m3.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m4.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m5.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m6.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m7.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m8.jpg" alt="mobile image"></li>
+              <li><img src="img/full_img_02_m9.jpg" alt="mobile image"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="webpage">
+          <div class="bodyimg">
+            <ul id="met">
+              <li><img src="img/full_img_02_w.png" alt="web1"></li>
+            </ul>
+          </div>
+
+          <div class="bhoverbox" id="met_box"
+            onclick="window.open('https://2nastella.github.io/2nastella-met_20230327/')">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- project 03 -->
+    <div class="section project_03">
+      <div class="bodywrap">
+        <div class="introduce">
+          <div class="introduceBox">
+            <ul class="color">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <h1>PROJECT <em>03</em></h1>
+            <h2 class="introduceBox_h2">DCL STORE</h2>
+            <h4 class="introduceBox_h4">React Website (Redux/Router)</h4>
+            <div class="subtxt">
+              <p class="subtxt_title">의류 쇼핑몰 DCL 스토어</p>
+              <p>리액트로 제작한 사이트입니다. <br>부트스트랩과 React Hook을 활용하여 제작하였습니다.</p>
+            </div>
+            <div class="btn_box">
+              <a href="https://2nastella.github.io/dclstorets/" target="_blank" class="btn_main">MAIN PAGE</a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="webpage">
+          <div class="bodyimg">
+            <ul id="dcl">
+              <li><img src="img/full_img_04_w.png" alt="web2"></li>
+            </ul>
+          </div>
+
+          <div class="bhoverbox" id="dcl_box" onclick="window.open('https://2nastella.github.io/dclstorets/')">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- project 04 -->
+    <div class="section project_04">
+      <div class="bodywrap">
+        <div class="introduce">
+          <div class="introduceBox">
+            <ul class="color">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <h1>PROJECT 04</h1>
+            <h2>TENBYTEN</h2>
+            <h4>Json / Ajax</h4>
+            <div class="subtxt">
+              <p class="subtxt_title">쇼핑몰 텐바이텐</p>
+              <p>json과 Ajax를 활용하였습니다.</p>
+            </div>
+            <div class="btn_box">
+              <a href="https://2nastella.github.io/tenbyten_js/index.html" target="_blank" class="btn_main">MAIN
+                PAGE</a>
+              <a href="https://2nastella.github.io/tenbyten_js/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="webpage">
+          <div class="bodyimg">
+            <ul id="tenbyten">
+              <li><img src="img/full_img_01_w.png" alt="web1"></li>
+            </ul>
+          </div>
+
+          <div class="bhoverbox" id="tenbyten_box"
+            onclick="window.open('https://2nastella.github.io/tenbyten_js/index.html')">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- section 6 : About Me -->
+    <div class="section section-06">
+
+      <div class="profile_wrap">
+
+
+        <div class="wrap_top">
+          <div class="wrap_top_lt">
+            <div class="profile_title"><h3>ABOUT ME</h3></div>
+
+            <p><span class="textbold">이나경 LEE NA GYEONG</span> </p>
+            <p>2anstella@gmail.com</p>
+
+            <div class="photo_img">
+              <div class="photo_jpg">
+                <img src="img/profile.jpg">         
+              </div>
+            </div>
+
+            <div class="wrap_top_txt">
+              <p class="wrap_top_txt_bold"><i class="fa-regular fa-circle-up" style="color: #ffffff;"></i> 성장하는 개발자</p>         
+              <p><span class=wrap_top_txt_span>트렌디하고 편리한 웹 서비스를 개발합니다.</span></p>
+              <p><span class="wrap_top_txt_span">도전을 좋아하고 경험을 중요시합니다.</span></p>              
+            </div>
+            
+          </div>
+
+          <div class="wrap_top_rt"></div>
+        </div>
+        
+
+        <div class="wrap_bottom">
+
+          <div class="wrap_bottom_box">
+            <p class="profile_menu">
+              <span>TRAINING</span></p>
+            <p class="profile_text">
+              수원이젠컴퓨터아카데미<br>
+              스마트 UI/UX 웹퍼블리셔 양성 과정 수료(2023년 7월)
+            </p>
+          </div>
+          <div class="wrap_bottom_box">
+            <p class="profile_menu"><span>SKILLS</span></p>
+            <p class="profile_text">
+              HTML | CSS | JAVASCRIPT<br>
+              JQUERY | JSON | AJAX <br>
+              OPEN API | RESPONSIVE WEB | REACT</p>
+          </div>
+          <div class="wrap_bottom_box">
+            <p class="profile_menu"><span>EDUCATION</span></p>
+            <p class="profile_text">
+              2009.02 미디어영상학과 졸업<br>
+              2006.02 출판미디어학과 졸업
+            </p>
+          </div>
+          <div class="wrap_bottom_box">
+            <p class="profile_menu"><span>LICENSE</span></p>
+            <p class="profile_text">
+              2002.09 워드프로세서 1급
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- 풀페이지 닫히는 div -->
+</body>
+</html>
